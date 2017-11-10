@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Converts an uploaded file into a python string.
 returns: str
@@ -19,6 +18,3 @@ def text_converter(file_path, encoding=None, file_extension=None):
         text = text.decode()
     
     return text
-
-text = text_converter('Files/SQL.txt', encoding='ascii')
-print(text)
